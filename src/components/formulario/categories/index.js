@@ -23,17 +23,15 @@ function Categories({ setData }) {
         name="categories"
         onChange={(e) => getData(e.currentTarget.value)}
       >
-        {categories && categories.length > 0 ? (
+        {categories &&
+          categories.length > 0 &&
           categories.map((category) => {
             return (
               <option key={category} value={category}>
                 {category}
               </option>
             );
-          })
-        ) : (
-          <p>Loading...</p>
-        )}
+          })}
       </select>
     </div>
   );

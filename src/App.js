@@ -3,7 +3,7 @@ import './App.css';
 import Form from './components/formulario';
 import Login from './components/login';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Cards from './components/datas';
+import Cards from './components/Cards';
 
 function App() {
   const [data, setData] = useState();
