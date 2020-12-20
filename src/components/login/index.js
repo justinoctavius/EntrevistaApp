@@ -26,7 +26,7 @@ function Login() {
         </div>
         <div className="login_body">
           <div className="username">
-            <label for="username">Nombre</label>
+            <label htmlFor="username">Nombre</label>
             <input
               type="text"
               name="username"
@@ -36,7 +36,7 @@ function Login() {
             />
           </div>
           <div className="password">
-            <label for="password">Contraseña</label>
+            <label htmlFor="password">Contraseña</label>
             <input
               type="password"
               name="password"
