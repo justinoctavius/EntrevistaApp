@@ -1,0 +1,16 @@
+.card {
+  border: solid 1px #bbb;
+  padding: 1rem;
+  text-align: center;
+  width: 35rem;
+  height: 35rem;
+  overflow:  hidden scroll;
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+.card_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

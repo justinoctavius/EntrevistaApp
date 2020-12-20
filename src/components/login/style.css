@@ -1,0 +1,24 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 2rem;
+}
+.login_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: solid .2rem #bbb;
+}
+
+.username input, .password input {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.btn_login{
+  width: 100%;
+}
